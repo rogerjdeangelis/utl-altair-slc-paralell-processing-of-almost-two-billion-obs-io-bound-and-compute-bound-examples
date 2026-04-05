@@ -239,20 +239,6 @@ data jpbs;
 stop;
 run;quit;
 
-/*----
-
-D:\SAS
-    j1.sas (first 200 million )
-      libname wpde wpd "e:/spde";libname wpdf wpd "f:/spdf";
-      proc sort data = wpde.inp(where=(state="TN")) out= wpdf.TN noequals;by state ran;run;
-    j2.sas
-    j3.sas
-    j4.sas
-    j5.sas
-    j6.sas
-    j7.sas
-    j8.sas
-
 /*
  _ __  _ __ ___   ___ ___  ___ ___
 | `_ \| `__/ _ \ / __/ _ \/ __/ __|
