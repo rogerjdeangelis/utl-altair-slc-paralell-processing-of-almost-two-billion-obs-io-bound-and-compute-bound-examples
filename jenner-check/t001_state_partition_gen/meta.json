@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_state_partition_gen",
+  "source_file": "utl-altair-slc-paralell-processing-of-almost-two-billion-obs-io-bound-and-compute-bound-examples.sas",
+  "source_blob_sha": "9897fa18acc4d7e6aa9b30d9e6f33db1f0979286",
+  "source_commit": "ec73e1f5f215d4ceca1d01f0abbdc93a0ee43610",
+  "notes": "Repo's opening state-partitioned data-generation DATA step (array states[8] $2 + nested do-loops + uniform(65432)). Output library rewritten from the external WPD libname (e:/spde) to WORK and per-state rows scaled 200e6->50; a PROC SQL group-by and PROC PRINT added so the generated rows are visible. Same generation logic and seed as the author wrote."
+}

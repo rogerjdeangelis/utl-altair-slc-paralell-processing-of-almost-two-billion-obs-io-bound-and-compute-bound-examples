@@ -1,0 +1,16 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA _null_
+
+state=TN tot=0.0004492681069005578
+state=TX tot=0.000552248312593544
+state=UT tot=0.0006102054435457445
+state=VT tot=0.0006249920275912066
+state=MD tot=0.0005776215094631758
+state=MA tot=0.00044692606868758654
+state=MI tot=0.00045356855729347087
+state=MN tot=0.0005199178671637302
+
+NOTE: Wrote _null_ (0 rows, 0 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
