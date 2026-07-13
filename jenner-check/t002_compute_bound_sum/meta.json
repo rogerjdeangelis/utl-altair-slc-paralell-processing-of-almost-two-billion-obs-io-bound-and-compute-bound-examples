@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_compute_bound_sum",
+  "source_file": "utl-altair-slc-paralell-processing-of-almost-two-billion-obs-io-bound-and-compute-bound-examples.sas",
+  "source_blob_sha": "9897fa18acc4d7e6aa9b30d9e6f33db1f0979286",
+  "source_commit": "ec73e1f5f215d4ceca1d01f0abbdc93a0ee43610",
+  "notes": "Repo's compute-bound example: per-state accumulation of PDF('BETA', uniform(1254), 0.1, 0.9)/10e5 with put state= tot=. Array, nested do-loops, PDF/uniform accumulation and per-state reset kept as written; inner loop scaled 200e6->1000. Deterministic (fixed uniform(1254) seed) - identical totals across two POSTs."
+}

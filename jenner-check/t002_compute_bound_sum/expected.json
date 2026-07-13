@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-13T03:40:38Z",
+  "_captured_run_id": "r_1a2eda209bda41908ad7c099b8e63915",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "state=TN tot=0.0004492681069005578",
+    "state=MN tot=0.0005199178671637302",
+    "NOTE: Wrote _null_ (0 rows, 0 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
